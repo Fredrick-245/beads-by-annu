@@ -1,0 +1,19 @@
+.bread-crumbs{
+    display: flex;
+    gap: 10px;
+}
+.crumb{
+    margin-right: 2px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: var(--primary-color20);
+}
+.crumb::after{
+    content: '  >';
+    color: var(--primary-color20);
+    font-size:1rem;
+}
+.crumb:last-child::after{
+    content: '';
+}

@@ -1,0 +1,19 @@
+.bracelet-categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 4rem 0;
+}
+.bracelet-header{
+    margin: 1rem;
+}
+.bracelet-select{
+    margin-top: 7px;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color20);
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    padding: .6rem .3rem;
+}

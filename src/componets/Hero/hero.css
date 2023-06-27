@@ -1,0 +1,16 @@
+
+.hero{
+    padding: 12rem 6rem;
+
+
+}
+.hero-header{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+.product-categories{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 1rem;
+}

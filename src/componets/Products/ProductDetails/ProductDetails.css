@@ -1,0 +1,130 @@
+.product-details-container{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.product-details-subcontainer    {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.product-details{
+    flex-grow: 1;
+    
+}
+.product-details-header{
+    border-bottom: 1px solid var(--primary-color20);
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.product-details-header h2{
+    font-size: 2rem;
+    letter-spacing: 1.1px;
+}
+.product-details-price{
+    border-bottom: 1px solid var(--primary-color20);
+    margin-top: 1rem ;
+    
+}
+.product-details-price p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.bracelet-size-p-container{
+
+    border-bottom: 1px solid var(--primary-color20);
+}
+.bracelet-size-p-container:first-child{
+    margin-top: .2rem;
+    font-size: 2rem;
+}
+.bracelet-size-container{
+    display: flex;
+    gap: 5px;
+}
+.bracelet-size-container p{
+    margin: 1rem 0;
+    padding: .3rem .9rem;
+    border: 1px solid var(--primary-color20);
+    border-radius: 2px;
+}
+.selected-p{
+    font-size: .8rem;
+    font-weight: normal;
+    color: var(--primary-color20);
+    margin-bottom: 1rem;
+}
+.bracelet-clicked{
+    border: 1.5px solid var(--primary-color20);
+    color: red;
+
+}
+.order-container{
+    border-bottom: 1px solid var(--primary-color20);
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    
+    
+}
+.cart-icon-number{
+    padding: .8rem;
+    outline: none;
+    border-radius: 2px;
+    border:  1px solid var(--primary-color20);
+}
+.number-orders{
+    display: flex;
+}
+.cart-input{
+    border:  1px solid var(--primary-color20);
+    padding: .8rem;
+}
+
+.order-button{
+    padding: .7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    color: #fff;
+    background-color: var(--primary-color20);
+}
+.order-button:hover{
+    opacity: .9;
+}
+.product-details-description{
+    border-bottom: 1px solid var(--primary-color20);
+}
+.bracelet-details-par{
+    margin: 1rem 0;
+}
+.product-details-review h2{
+    margin :1rem 0;
+}
+.review-section{
+    margin-top: 1rem;
+}
+.review-textarea{
+    padding: .2rem;
+    width: 100%;
+    outline: none;
+    border-color: var(--primary-color20);
+}
+.review-contact-details{
+    display: flex;
+    gap: 1rem;
+    margin: .8rem 0;
+}
+.review-contacts-input{
+    padding: .3rem;
+    outline: none;
+    /* border-color: var(--primary-color20); */
+    border:1px solid var(--primary-color20);
+    border-radius: 4px;
+    
+}
